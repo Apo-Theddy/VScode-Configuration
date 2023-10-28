@@ -1,11 +1,42 @@
 {
-    "workbench.colorTheme": "Gruvbox Glass",
-    "workbench.iconTheme": "material-icon-theme",
-    "glassit.alpha": 225,
+    "editor.tokenColorCustomizations": {
+        "[apotheme]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "punctuation.definition.comment",
+                        "comment.block",
+                        "comment.line",
+                        "comment.block.documentation",
+                        "comment.line.double-slash",
+                        "entity.other.attribute-name",
+                        "entity.other.attribute-name.html",
+                        "markup.italic",
+                        "entity.other.attribute-name.id",
+                        "entity.other.attribute-name.class.css",
+                        "entity.other.attribute-name.tag.jade",
+                        "entity.other.attribute-name.class.jade",
+                        "entity.other.attribute-name.id.jade",
+                        "keyword.control",
+                        "storage",
+                        "emphasis",
+                        "variable.language"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.colorTheme": "Horizon Extended",
+    "workbench.iconTheme": "catppuccin-perfect-latte",
     "window.zoomLevel": 1,
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "editor.fontLigatures": false,
-    "editor.fontFamily": "Cascadia Code PL",
+    // "editor.fontFamily": "Victor Mono SemiBold",
+    "editor.fontFamily": "Victor Mono SemiBold",
     "workbench.startupEditor": "none",
     "editor.minimap.autohide": true,
     "workbench.activityBar.visible": false,
@@ -14,7 +45,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "diffEditor.wordWrap": "on",
-    "editor.lineHeight": 25,
+    "editor.lineHeight": 28,
     "editor.renderWhitespace": "none",
     "editor.glyphMargin": false,
     "editor.folding": false,
@@ -28,8 +59,25 @@
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.type": "menu",
     "workbench.layoutControl.enabled": false,
-    "terminal.integrated.fontFamily": "Hack Nerd Font",
-    "window.title": ".",
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "window.title": "",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "material-icon-theme.activeIconPack": "nest",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "redhat.telemetry.enabled": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "go.toolsManagement.autoUpdate": true,
 }
