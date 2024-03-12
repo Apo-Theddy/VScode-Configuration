@@ -1,102 +1,135 @@
 {
-    "editor.tokenColorCustomizations": {
-        "[apotheme]": {
-            "textMateRules": [
-                {
-                    "scope": [
-                        "comment",
-                        "punctuation.definition.comment",
-                        "comment.block",
-                        "comment.line",
-                        "comment.block.documentation",
-                        "comment.line.double-slash",
-                        "entity.other.attribute-name",
-                        "entity.other.attribute-name.html",
-                        "markup.italic",
-                        "entity.other.attribute-name.id",
-                        "entity.other.attribute-name.class.css",
-                        "entity.other.attribute-name.tag.jade",
-                        "entity.other.attribute-name.class.jade",
-                        "entity.other.attribute-name.id.jade",
-                        "keyword.control",
-                        "storage",
-                        "emphasis",
-                        "variable.language"
-                    ],
-                    "settings": {
-                        "fontStyle": "italic"
-                    }
-                }
-            ]
+  "editor.tokenColorCustomizations": {
+    "[apotheme]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "punctuation.definition.comment",
+            "comment.block",
+            "comment.line",
+            "comment.block.documentation",
+            "comment.line.double-slash",
+            "entity.other.attribute-name",
+            "entity.other.attribute-name.html",
+            "markup.italic",
+            "entity.other.attribute-name.id",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.tag.jade",
+            "entity.other.attribute-name.class.jade",
+            "entity.other.attribute-name.id.jade",
+            "keyword.control",
+            "storage",
+            "emphasis",
+            "variable.language"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
         }
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "workbench.editor.showIcons": true,
-    "editor.letterSpacing": 0.1,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 20,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Maple Mono NF",
-    "workbench.startupEditor": "none",
-    "editor.minimap.autohide": true,
-    "workbench.editor.wrapTabs": true,
-    "editor.wordWrap": "on",
-    "editor.guides.indentation": false,
+      ]
+    }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.editor.showIcons": true,
+  "editor.letterSpacing": 0.01,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": "'ss01'",
+  "editor.fontFamily": "Victor Mono SemiBold, Maple Mono NF",
+  "workbench.startupEditor": "none",
+  "editor.minimap.autohide": true,
+  "workbench.editor.wrapTabs": true,
+  "editor.wordWrap": "on",
+  "editor.guides.indentation": false,
+  "editor.formatOnSave": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.formatOnPaste": true,
+  "diffEditor.wordWrap": "on",
+  "editor.wrappingIndent": "deepIndent",
+  "editor.renderWhitespace": "none",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 8,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.cursorBlinking": "phase",
+  "editor.renderLineHighlight": "none",
+  "editor.lineNumbers": "on",
+  "workbench.layoutControl.type": "menu",
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.fontFamily": "Maple Mono",
+  "window.title": "",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "material-icon-theme.activeIconPack": "nest",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[dart]": {
     "editor.formatOnSave": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorStyle": "underline",
-    "workbench.editor.decorations.badges": false,
-    "workbench.editor.decorations.colors": true,
-    "workbench.editor.labelFormat": "short",
-    "workbench.editor.tabActionCloseVisibility": false,
-    "workbench.tree.renderIndentGuides": "none",
-    "editor.formatOnPaste": true,
-    "diffEditor.wordWrap": "on",
-    "editor.wrappingIndent": "deepIndent",
-    "editor.renderWhitespace": "none",
-    "workbench.tree.expandMode": "singleClick",
-    "workbench.tree.indent": 8,
-    "editor.glyphMargin": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.cursorBlinking": "phase",
-    "editor.renderLineHighlight": "none",
-    "editor.lineNumbers": "off",
-    "workbench.layoutControl.type": "menu",
-    "workbench.layoutControl.enabled": false,
-    "terminal.integrated.fontFamily": "Maple Mono",
-    "window.title": "",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "material-icon-theme.activeIconPack": "nest",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.selectionHighlight": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": "off"
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "dart.flutterSdkPath": "C:\\development\\flutter",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.bracketPairColorization.enabled": false,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.folding": true,
+  "editor.showFoldingControls": "mouseover",
+  "window.menuBarVisibility": "compact",
+  "editor.foldingStrategy": "indentation",
+  "workbench.activityBar.location": "top",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "git.confirmSync": false,
+  "editor.indentSize": 1,
+  "window.zoomLevel": 1,
+  "security.workspace.trust.untrustedFiles": "open",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<C-k>",
+        "<C-o>"
+      ],
+      "commands": [
+        "workbench.action.files.openFolder"
+      ]
     },
-    "workbench.productIconTheme": "fluent-icons",
-    "dart.flutterSdkPath": "C:\\development\\flutter",
-    "workbench.colorTheme": "Maple Dark",
-    "dart.previewFlutterUiGuides": true,
-    "dart.previewFlutterUiGuidesCustomTracking": true,
-    "editor.guides.bracketPairsHorizontal": false,
-    "editor.guides.highlightActiveBracketPair": false,
-    "editor.bracketPairColorization.enabled": false,
-    "git.openRepositoryInParentFolders": "always",
-    "editor.folding": true,
-    "editor.showFoldingControls": "mouseover",
-    "window.menuBarVisibility": "compact",
-    "editor.foldingStrategy": "indentation",
-    "workbench.activityBar.location": "top",
-    "window.zoomLevel": 1,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "dart.debugExternalPackageLibraries": true,
-    "dart.debugSdkLibraries": false,
-    "git.confirmSync": false,
+    {
+      "before": [
+        "<C-o>"
+      ],
+      "commands": [
+        "workbench.action.files.openFile"
+      ]
+    }
+  ],
+  "workbench.settings.applyToAllProfiles": [
+    
+  
+  ],
+  "editor.tabSize": 1,
+  "workbench.colorTheme": "Monokai Pirokai - Arctic Frost",
 }
