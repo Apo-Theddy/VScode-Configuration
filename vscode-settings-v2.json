@@ -8,10 +8,10 @@
           "constant", 
           "storage.modifier", 
           "storage.type.class.js", 
-          "keyword"
+          "keyword",
         ],
         "settings": {
-          "fontStyle": "italic"
+          "fontStyle": "italic",
         }
       },
       {
@@ -81,6 +81,10 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
   "window.menuBarVisibility": "hidden",
   "files.insertFinalNewline": true,
   "extensions.ignoreRecommendations": true,
@@ -114,7 +118,7 @@
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
     ".sidebar .title-label h2": "line-height: 2.8 !important",
     ".monaco-editor .scroll-decoration": "display: none !important",
-    ".monaco-scrollable-element > .shadow.top": "display: none !important"
+    ".monaco-scrollable-element > .shadow.top": "display: none !important",
   },
   "animations.Install-Method": "Apc Customize UI++",
   "apc.imports": [
@@ -125,5 +129,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "animations.Enabled": true,
-  "glassit.alpha": 245
+  "glassit.alpha": 245,
 }
