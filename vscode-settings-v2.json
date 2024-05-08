@@ -4,33 +4,20 @@
       {
         "scope": [
           "comment",
-          "entity.name.type.class", 
-          "constant", 
-          "storage.modifier", 
-          "storage.type.class.js", 
+          "entity.name.type.class",
+          "constant",
+          "storage.modifier",
+          "storage.type.class.js",
           "keyword",
         ],
         "settings": {
-          "fontStyle": "italic",
+          "fontStyle": "italic bold"
         }
       },
-      {
-        "scope": [
-          "invalid",
-          "keyword.operator",
-          "constant.numeric.css",
-          "keyword.other.unit.px.css",
-          "constant.numeric.decimal.js",
-          "constant.numeric.json"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
     ]
   },
   "window.zoomLevel": 0.8,
-  "workbench.colorTheme": "Maple Dark",
+  "workbench.colorTheme": "Operator Mono Dark Modern Theme",
   "workbench.iconTheme": "gruvbox-material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
@@ -48,17 +35,18 @@
   "editor.matchBrackets": "never",
   "editor.lightbulb.enabled": "off",
   "editor.hover.enabled": false,
-  "editor.showFoldingControls": "never",
+  "editor.showFoldingControls": "mouseover",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
+  "editor.folding": false,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "window.customMenuBarAltFocus": false,
   "editor.tabSize": 2,
   "workbench.editor.tabActionCloseVisibility": false,
   "editor.detectIndentation": false,
-  "editor.fontFamily": "Victor Mono Semibold",
+  "editor.fontFamily": "Operator-caska",
   "editor.fontSize": 13,
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
@@ -66,7 +54,6 @@
   "breadcrumbs.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "explorer.compactFolders": true,
   "git.decorations.enabled": false,
   "scm.diffDecorations": "none",
   "tailwindCSS.includeLanguages": {
@@ -88,9 +75,9 @@
   "window.menuBarVisibility": "hidden",
   "files.insertFinalNewline": true,
   "extensions.ignoreRecommendations": true,
-  "files.autoSave": "afterDelay",
-  "terminal.integrated.fontFamily": "Maple Mono NF",
-  "terminal.integrated.tabs.enabled": false,
+  "files.autoSave": "off",
+  "terminal.integrated.fontFamily": "Operator-caska",
+  "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.fontSize": 14,
   "apc.electron": {
@@ -99,22 +86,26 @@
   },
   "window.titleBarStyle": "native",
   "window.customTitleBarVisibility": "never",
-  "apc.font.family": "Fantasque Sans Mono Regular",
+  "apc.font.family": "Operator-caska",
   "apc.listRow": {
     "lists": ["explorer-folders-view", "quick-input-list", "results"],
     "height": 25
   },
+  "apc.sidebar.titlebar": {
+    "fontSize": 1,
+    "height": 1
+  },
   "apc.stylesheet": {
     ".title-actions": "display: none !important",
-    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important;",
     ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
     ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
     ".sidebar .title-label": "padding: 0 !important",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
-    ".sidebar": "border: none !important ",
+    ".sidebar": "border: none !important;",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
     ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-    ".panel .composite.title": "visibility: hidden !important",
+    ".panel .composite.title": "display:flex; justify-content:space-between;",
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
     ".sidebar .title-label h2": "line-height: 2.8 !important",
     ".monaco-editor .scroll-decoration": "display: none !important",
@@ -129,5 +120,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "animations.Enabled": true,
-  "glassit.alpha": 245,
+  "glassit.alpha": 250,
+  "editor.lineNumbers": "on",
+  "explorer.compactFolders": false,
+  "outline.collapseItems": "alwaysCollapse",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  }
 }
