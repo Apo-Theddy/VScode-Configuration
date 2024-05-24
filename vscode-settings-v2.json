@@ -16,7 +16,7 @@
       }
     ]
   },
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 0.6,
   "workbench.colorTheme": "gruvboxConcoctis dark hard",
   "workbench.iconTheme": "symbols",
   "symbols.files.associations": {
@@ -27,11 +27,12 @@
     "*.adapter.ts": "nest",
     "*.repository.ts": "nest"
   },
+  "outline.icons": false,
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
   "editor.smoothScrolling": true,
   "workbench.sideBar.location": "left",
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
@@ -149,5 +150,5 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "symbols.hidesExplorerArrows": false,
+  "symbols.hidesExplorerArrows": true
 }
