@@ -1,0 +1,24 @@
+{
+  "extensions": {
+    "Apc Customize UI++": "https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension",
+    "Auto Rename Tag": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag",
+    "Fluent Icons": "https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons",
+    "GlassIt-VSC": "https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit",
+    "Gurvbox Concoctis": "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis",
+    "IntelliCode": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode",
+    "Live Server": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+    "Material Icon Theme": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
+    "Monokai Pirokai": "https://marketplace.visualstudio.com/items?itemName=lakshits11.monokai-pirokai",
+    "Prettier": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+    "Rainbow CSV": "https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv",
+    "Symbols": "https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols",
+    "Tailwind CSS IntelliSense": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
+    "VSCode Animations": "https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations",
+    "Dart": "https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code",
+    "Docker": "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker",
+    "Flutter": "https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter",
+    "Gruvbox Material Icon Theme": "https://marketplace.visualstudio.com/items?itemName=JonathanHarty.gruvbox-material-icon-theme",
+    "Import Cost": "https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost",
+    "Maple Theme": "https://marketplace.visualstudio.com/items?itemName=subframe7536.theme-maple"
+  }
+}
