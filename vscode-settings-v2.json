@@ -8,17 +8,25 @@
           "constant",
           "storage.modifier",
           "storage.type.class.js",
-          "keyword",
+          "keyword"
         ],
         "settings": {
           "fontStyle": "italic bold"
         }
-      },
+      }
     ]
   },
   "window.zoomLevel": 0.8,
-  "workbench.colorTheme": "Operator Mono Dark Modern Theme",
-  "workbench.iconTheme": "gruvbox-material-icon-theme",
+  "workbench.colorTheme": "gruvboxConcoctis dark hard",
+  "workbench.iconTheme": "symbols",
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.service.ts": "nest",
+    "*.controller.ts": "nest",
+    "*.guard.ts": "nest",
+    "*.adapter.ts": "nest",
+    "*.repository.ts": "nest"
+  },
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
   "editor.smoothScrolling": true,
@@ -34,12 +42,12 @@
   "editor.renderLineHighlight": "none",
   "editor.matchBrackets": "never",
   "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
   "editor.showFoldingControls": "mouseover",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
-  "editor.folding": false,
+  "editor.folding": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "window.customMenuBarAltFocus": false,
@@ -89,7 +97,7 @@
   "apc.font.family": "Operator-caska",
   "apc.listRow": {
     "lists": ["explorer-folders-view", "quick-input-list", "results"],
-    "height": 25
+    "height": 30
   },
   "apc.sidebar.titlebar": {
     "fontSize": 1,
@@ -109,22 +117,37 @@
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
     ".sidebar .title-label h2": "line-height: 2.8 !important",
     ".monaco-editor .scroll-decoration": "display: none !important",
-    ".monaco-scrollable-element > .shadow.top": "display: none !important",
+    ".monaco-scrollable-element > .shadow.top": "display: none !important"
   },
   "animations.Install-Method": "Apc Customize UI++",
   "apc.imports": [
-    "file:///c:/Users/Dev/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+    "file:///c:/Users/Dev/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
   ],
   "workbench.activityBar.location": "hidden",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "animations.Enabled": true,
-  "glassit.alpha": 250,
+  "glassit.alpha": 240,
   "editor.lineNumbers": "on",
   "explorer.compactFolders": false,
   "outline.collapseItems": "alwaysCollapse",
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
-  }
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "symbols.hidesExplorerArrows": false,
 }
